@@ -1,11 +1,10 @@
 /* Text colors */
 .text-primary {
-    /* color: #28a745; */
     color: #3e8de3;
 }
 
 .text-secondary {
-    color: #0284d0;
+    color: #28a745;
 }
 
 /* Button  */
@@ -24,14 +23,14 @@
 
 .btn-primary,
 .bg-primary {
-    /* background-color: #28a745; */
     background-color: #3e8de3;
     color: #fff;
 }
 
 .btn-secondary,
 .bg-secondary {
-    background-color: #0284d0;
+    background-color: #28a745;
+    ;
     color: #fff;
 }
 
@@ -66,6 +65,9 @@
 }
 
 /* Flex Columns  */
+.flex-columns.flex-reverse .row {
+    flex-direction: row-reverse;
+}
 .flex-columns .row {
     display: flex;
     flex-wrap: wrap;
@@ -110,3 +112,39 @@
 .flex-columns p {
     margin: 20px 0;
 }
+
+/* Section header */
+.section-header {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section-header h2 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.section-padding {
+    padding: 20px 20px 40px;
+}
+
+/* Flex grid */
+.flex-grid .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.flex-grid .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.flex-grid .column img{
+    height: 50%;
+}
+
